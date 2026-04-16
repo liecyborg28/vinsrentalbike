@@ -8,7 +8,7 @@ export const BIKES = [
     description:
       "Classic styling with modern features. Perfect for navigating Canggu traffic.",
     prices: { days3: "Rp 330.000", week: "Rp 735.000", month: "Rp 1.500.000" },
-    features: ["110cc Engine", "USB Charger", "Helmets Included"],
+    features: ["125cc Engine", "USB Charger", "Helmets Included"],
   },
   {
     id: "yamaha-nmax-neo",
@@ -30,7 +30,7 @@ export const BIKES = [
       week: "Rp 1.750.000",
       month: "Rp 3.500.000",
     },
-    features: ["125cc Engine", "Hooks & Storage", "Fuel Efficient"],
+    features: ["250cc Engine", "Hooks & Storage", "Fuel Efficient"],
   },
   {
     id: "vespa-primavera",
@@ -43,7 +43,7 @@ export const BIKES = [
       week: "Rp 1.750.000",
       month: "Rp 3.500.000",
     },
-    features: ["125cc Engine", "Hooks & Storage", "Fuel Efficient"],
+    features: ["155cc Engine", "Hooks & Storage", "Fuel Efficient"],
   },
 ];
 
@@ -110,4 +110,5 @@ export const TERMS = [
   "Motorbikes cannot be taken out of Bali island under any circumstances.",
   "In case of emergency or breakdown, contact our support team immediately. Do not repair without authorization.",
   "A passport or valid government ID will be photographed securely upon delivery as a guarantee.",
+  "Every rent bike must pay security deposit minimum IDR 500.000 - 1.000.000 depend bike rented.",
 ];

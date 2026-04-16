@@ -1,6 +1,6 @@
 "use client"
 
-import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
+import { MapPin, Phone, Mail, MessageCircle, Instagram } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function ContactSection() {
@@ -30,7 +30,7 @@ export function ContactSection() {
             className="rounded-xl overflow-hidden border bg-muted shadow-sm h-[400px]"
           >
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63116.59103688463!2d115.1158654!3d-8.6360412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2389dffffffff%3A0xcb1b510793af9647!2sCanggu%2C%20North%20Kuta%2C%20Badung%20Regency%2C%20Bali!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid" 
+              src="https://maps.google.com/maps?q=Nyoman%20%26%20Susan%20Guesthouse%2C%20Jalan%20Pantai%20Berawa%2C%20Br%20Tegal%20Gundul%20Gg.%20Antik%20No.19%2C%20Tibubeneng%2C%20Kec.%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361&t=&z=15&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
@@ -55,8 +55,8 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Our Garage</h3>
-                <p className="text-muted-foreground mb-1">Jl. Pantai Batu Bolong, Canggu</p>
-                <p className="text-muted-foreground">Kuta Utara, Badung, Bali 80361</p>
+                <p className="text-muted-foreground mb-1">Nyoman & Susan Guesthouse, Jalan Pantai Berawa</p>
+                <p className="text-muted-foreground">Br Tegal Gundul Gg. Antik No.19, Tibubeneng, Kec. Kuta Utara, Kabupaten Badung, Bali 80361</p>
               </div>
             </div>
 
@@ -77,7 +77,17 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Email</h3>
-                <p className="text-muted-foreground">hello@vinsrentalbike.com</p>
+                <p className="text-muted-foreground">vinsrentalbike@gmail.com</p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="bg-primary/10 p-3 rounded-full mr-4 text-primary">
+                <Instagram className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-1">Instagram</h3>
+                <p className="text-muted-foreground">@vinsroom_canggu</p>
               </div>
             </div>
 
