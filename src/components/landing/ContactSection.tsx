@@ -1,9 +1,29 @@
 "use client"
 
-import { MapPin, Phone, Mail, MessageCircle, Instagram } from "lucide-react"
+import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function ContactSection() {
+  const InstagramIcon = ({ className, ...props }: any) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      {...props}
+    >
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  );
+
   return (
     <section id="contact" className="py-24 bg-card border-b overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,7 +103,7 @@ export function ContactSection() {
 
             <div className="flex items-start">
               <div className="bg-primary/10 p-3 rounded-full mr-4 text-primary">
-                <Instagram className="h-6 w-6" />
+                <InstagramIcon className="h-6 w-6" />
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Instagram</h3>
